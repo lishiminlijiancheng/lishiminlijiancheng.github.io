@@ -1,18 +1,19 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Demo/>
+    <Card width="350" imgHeight="270" 
+    imgSrc="http://8.142.19.67:3000/images/cat2.jpg"
+     summary="hahahaha🌙🐕🐱🐖">
+     <template #footer={foot}>
+      <a>{{foot}}</a>
+     </template>
+    </Card>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
+  name: 'App'
 }
 </script>
 
