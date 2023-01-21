@@ -1,4 +1,4 @@
-# easy-ui 组件库
+# lishiminlijiancheng-ui 组件库
 ### 快速开始
 #### 1.安装组件库
 ```bash
